@@ -1,0 +1,25 @@
+{
+  "name": "react-ransom-note",
+  "version": "1.0.0",
+  "description": "Convert text into rAnSOm LetTERs!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronV/react-ransom-note.git"
+  },
+  "author": "aaron.vanderpoel@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AaronV/react-ransom-note/issues"
+  },
+  "homepage": "https://github.com/AaronV/react-ransom-note#readme",
+  "dependencies": {
+    "chroma": "^0.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled": "^1.0.0"
+  }
+}
