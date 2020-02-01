@@ -4,8 +4,8 @@
   "description": "Convert text into rAnSOm LetTERs!",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.dev.js",
-    "dev": "webpack-dev-server --progress --colors --hot --inline --config webpack.config.dev.js --open"
+    "dev": "webpack-dev-server --progress --colors --hot --inline --config webpack.config.dev.js --open",
+    "dev:build": "webpack --config webpack.config.dev.js"
   },
   "repository": {
     "type": "git",
