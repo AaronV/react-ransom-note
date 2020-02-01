@@ -2,9 +2,10 @@
   "name": "react-ransom-note",
   "version": "1.0.0",
   "description": "Convert text into rAnSOm LetTERs!",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.dev.js",
+    "dev": "webpack-dev-server --progress --colors --hot --inline --config webpack.config.dev.js --open"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,27 @@
   "homepage": "https://github.com/AaronV/react-ransom-note#readme",
   "dependencies": {
     "chroma": "^0.0.1",
+    "styled": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-stage-0": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "styled": "^1.0.0"
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
