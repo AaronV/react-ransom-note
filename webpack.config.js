@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve('lib'),
-    filename: 'ReactRansomNote.js',
+    filename: 'index.js',
     libraryTarget: 'commonjs2',
   },
   module: {
