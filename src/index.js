@@ -1,6 +1,6 @@
 import React from 'react';
-// import styled from 'styled-components';
-// import chroma from 'chroma-js';
+import styled from 'styled-components';
+import chroma from 'chroma-js';
 
 const RANSOM_FONTS = [
   'Arial',
@@ -14,10 +14,10 @@ const RANSOM_FONTS = [
 const CASES = ['uppercase', 'lowercase'];
 const WEIGHTS = ['normal', 'bold'];
 
-// const Space = styled.div`
-//   display: inline-block;
-//   width: ${props => props.fontSize}vw;
-// `;
+const Space = styled.div`
+  display: inline-block;
+  width: ${props => props.fontSize}vw;
+`;
 
 function randomArrayEntry(array) {
   const rand = Math.floor(Math.random() * array.length);
