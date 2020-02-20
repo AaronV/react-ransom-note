@@ -1,8 +1,20 @@
-var path = require('path');
+const path = require('path');
 
 module.exports = {
   mode: 'production',
+  entry: './src/index.js',
+  output: {
+    path: path.resolve('lib'),
+    filename: 'ReactRansomNote.js',
+    libraryTarget: 'commonjs2',
+  },
   module: {
-    rules: [{ test: /\.js$/, use: 'babel-loader' }],
+    rules: [
+      {
+        test: /\.jsx?$/,
+        exclude: /(node_modules)/,
+        use: 'babel-loader',
+      },
+    ],
   },
 };

@@ -2,8 +2,10 @@
   "name": "react-ransom-note",
   "version": "1.0.0",
   "description": "Convert text into rAnSOm LetTERs!",
+  "main": "lib/ReactRansomNote.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
     "dev": "webpack-dev-server --progress --colors --hot --inline --config webpack.config.dev.js --open",
     "dev:build": "webpack --config webpack.config.dev.js"
   },

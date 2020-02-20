@@ -1,4 +1,6 @@
 src
 dist
 demo
+example
 .babelrc
+webpack.config.js
