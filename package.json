@@ -1,6 +1,6 @@
 {
   "name": "react-ransom-note",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Convert text into rAnSOm LetTERs!",
   "main": "lib/index.js",
   "scripts": {
