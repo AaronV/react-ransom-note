@@ -10,11 +10,17 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
-    "outDir": "dist",
-    "sourceMap": true
+    "outDir": "build",
+    "sourceMap": true,
+    "declaration": true
   },
   "exclude": [
     "src/stories/**/*",
-    "**/*.stories.tsx"
+    "**/*.stories.tsx",
+    "node_modules",
+    "build"
+  ],
+  "include": [
+    "lib"
   ]
 }

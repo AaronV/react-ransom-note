@@ -1,6 +1,7 @@
 import chroma from "chroma-js";
 import React from "react";
 import styled from "styled-components";
+import {iRansomNoteProps} from "./types";
 
 const RANSOM_FONTS = [
   "Arial",
@@ -27,12 +28,8 @@ function randomRange(min: number, max: number) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-interface iRansomNoteProps {
-  text: string;
-  fontSize?: number;
-}
 
-export default function RansomNote({ text, fontSize = 48 }: iRansomNoteProps) {
+export default function RansomNote({text, fontSize = 48}: iRansomNoteProps) {
   if (!text) return null;
   const letterArray = Array.from(text);
 
@@ -40,7 +37,7 @@ export default function RansomNote({ text, fontSize = 48 }: iRansomNoteProps) {
     const letterFontSize = randomRange(fontSize * 0.9, fontSize);
 
     if (l === " ")
-      return <Space key={i} style={{ width: `${letterFontSize / 2}px` }} />;
+      return <Space key={i} style={{width: `${letterFontSize / 2}px`}}/>;
 
     const backgroundColor = chroma.random();
     const textColor =
