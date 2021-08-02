@@ -2,13 +2,17 @@
   "name": "@vanaaron/react-ransom-note",
   "version": "1.0.6",
   "description": "A React component to output text in Ransom-Note styling.",
-  "main": "index.js",
+  "main": "src/RansomNote.tsx",
   "author": "Aaron Vanderpoel <aaron.vanderpoel@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronV/react-ransom-note.git"
   },
   "devDependencies": {
     "@babel/core": "^7.14.8",
