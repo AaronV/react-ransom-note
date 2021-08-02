@@ -1,6 +1,6 @@
 {
   "name": "@vanaaron/react-ransom-note",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "A React component to output text in Ransom-Note styling.",
   "main": "build/RansomNote.js",
   "author": "Aaron Vanderpoel <aaron.vanderpoel@gmail.com>",
@@ -41,6 +41,6 @@
     "react"
   ],
   "files": [
-    "/lib"
+    "/src"
   ]
 }
