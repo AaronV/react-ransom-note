@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "esnext",
+    "module": "commonjs",
     "lib": [
       "es6",
       "dom",
@@ -18,7 +18,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
-    "outDir": "lib",
+    "outDir": "build",
     "sourceMap": true,
     "declaration": true
   },
